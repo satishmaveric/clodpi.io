@@ -15,7 +15,7 @@ markdown: kramdown
 
 ### content configuration ###
 title:       "ClodPi"
-keywords:    "ClodPi"
+keywords:    "ClodPi, ClodPi Labs, ClodPi Labs (India) Private Limited"
 description: "ClodPi Labs (India) Private Limited"
 #source_link: "https://github.com/t413/SinglePaged"
 favicon:     "img/favicon.ico"
@@ -35,3 +35,6 @@ colors:
 
 kramdown:
   auto_ids:  false
+
+plugins:
+  - jekyll-seo-tag
