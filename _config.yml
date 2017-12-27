@@ -17,7 +17,7 @@ markdown: kramdown
 title:       "ClodPi"
 keywords:    "ClodPi, ClodPi Labs, ClodPi Labs (India) Private Limited"
 description: "ClodPi Labs (India) Private Limited , ClodPi Labs is an IoT StartUp, LoRa Nodes , Lora Gateways"
-url:         "clodpi.io"
+url:         "http://clodpi.io"
 image:       "img/ClodPiLogo.png"
 #source_link: "https://github.com/t413/SinglePaged"
 favicon:     "img/favicon.ico"
