@@ -1,0 +1,127 @@
+# baseURL: /preview/
+baseURL: /
+languageCode: en-us
+title: ClodPi Labs
+theme: hugo-fresh
+
+params:
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: IoT & ClodPi
+    # Hero subtitle (optional)
+    subtitle: We build products in Low Power Long Range sensor data network communication, using technologies like LoRaWAN and NB-IoT
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "https://console.clodpi.io/docs/getting-started"
+    # Hero image (from /images/___)
+    image: illustrations/lora.png
+    # Footer logos (from /images/logos/clients/___.svg)
+    clientlogos:
+    - systek
+    - tribe
+    - kromo
+    - infinite
+    - gutwork
+  meta:
+    keywords: ClodPi, LoRa, LoRaWAN, Gateway, Network Server, India, Indoor, Outdoor, IoT, Automation, Dashboard, Research, Development, Services, Hardware, Software, Platform
+    description: ClodPi's products ranges from LoRaWAN Gateways (Indoor & Outdoor), Network Servers alongn with Dasboards and Nodes helps in Long Range Low Power IoT Communication. We also work on cutting edge technologies like NBIoT, Edge Computing, etc
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Products
+    url: /
+  - title: Pricing
+    url: /
+  - title: Dropdown
+    sublinks:
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+  - title: Shop Now
+    url: https://shop.clodpi.io
+  - title: LoRaWAN Console
+    url: https://console.clodpi.io
+    button: true
+  section1:
+    title: Our LoRaWAN Products
+    tiles:
+    - title: Industrial Outdoor Gateway
+      icon: outdoor-gw
+      text: Outdoor (IP68) LoRaWAN 8 channel gateway with 4g backhaul and Power over Ethernet.
+      url: /
+      buttonText: More Details
+    - title: Indoor Gateway
+      icon: indoor-gw
+      text: Indoor, 8 channel gateway with ethernet backhaul, speicifcally for covering industries and comercial buildings.
+      url: /
+      buttonText: More Details
+    - title: Hosted (SaaS) Network Server
+      icon: console
+      text: Network server (LoRaWAN v1.0.1) to bridge the gateways to your application, doing device management and decode / relay the data from nodes in a secure manner.
+      url: https://console.clodpi.io
+      buttonText: Get started
+  section2:
+    title: You're here because you want the best
+    subtitle: And we know it
+    features:
+    - title: Powerful and unified interface
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Cross-device synchronisation
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Nomad system
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+  section3:
+    title: One platform
+    subtitle: To rule them all
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "#"
+  section4:
+    title: Our Clients love us!
+    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    clients:
+    - name: Irma Walters
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Accountant
+      img: 1
+    - name: John Bradley
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Financial Analyst
+      img: 2
+    - name: Gary Blackman
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: HR Manager
+      img: 3
+  footer:
+    # Logo (from /images/logos/___)
+    logo: logos/logo.png
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/clodpi
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://www.facebook.com/clodpilabs/
+      icon: facebook
+    - link: https://twitter.com/clodpilabs
+      icon: twitter
+    bulmalogo: true
+    product:
+    - text: About LoRaWAN
+      link: https://lora-alliance.org/about-lorawan
+    - text: LoRaWAN in India
+      link: /
+    docs:
+    - text: Get started
+      link: https://console.clodpi.io/docs/getting-started
+    - text: User guides
+      link: https://console.clodpi.io/docs/getting-started
