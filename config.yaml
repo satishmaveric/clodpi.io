@@ -3,6 +3,8 @@ baseURL: /
 languageCode: en-us
 title: ClodPi Labs
 theme: hugo-fresh
+publishDir: docs
+
 
 params:
   font:
