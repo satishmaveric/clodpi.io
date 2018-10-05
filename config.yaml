@@ -32,17 +32,15 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Products
-    url: /
+    url: /#products
   - title: Pricing
-    url: /
-  - title: Dropdown
+    url: /#pricing
+  - title: Solutions
     sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
+    - title: Wireless Energy Metering
+      url: /#solutions
+    - title: Modbus Wireless Reader
+      url: /#solutions
   - title: Shop Now
     url: https://shop.clodpi.io
   - title: LoRaWAN Console
