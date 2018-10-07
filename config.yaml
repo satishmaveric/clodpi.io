@@ -107,7 +107,7 @@ params:
       img: 3
   footer:
     # Logo (from /images/logos/___)
-    logo: logos/logo.png
+    logo: logos/logo-white.png
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link: https://github.com/clodpi
