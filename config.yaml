@@ -14,7 +14,7 @@ params:
     # Main hero title
     title: IoT & ClodPi
     # Hero subtitle (optional)
-    subtitle: We build products in Low Power Long Range sensor data network communication, using technologies like LoRaWAN and NB-IoT
+    subtitle: We build products in Low Power Long Range sensor data network communication space, using technologies like LoRaWAN and NB-IoT
     # Button text
     buttontext: Get started
     # Where the main hero button links to
@@ -43,6 +43,8 @@ params:
       url: /#solutions
     - title: Modbus Wireless Reader
       url: /#solutions
+    - title: Monitoring Dashboards
+      url: /#screenshot
   - title: Shop Now
     url: https://shop.clodpi.io
   - title: LoRaWAN Console
@@ -80,12 +82,13 @@ params:
     - title: Nomad system
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
+  screenshot:
+    title: Dashboard
+    subtitle: for monitoring
     image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
+  pricing:
+    buttonText: Contact Us
+    buttonLink: "mailto:meetus@clodpi.io"
   section4:
     title: Our Clients love us!
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry

@@ -1,3 +1,6 @@
+{{- $pricing       := .Site.Params.pricing }}
+{{- $buttonText := index $pricing "buttontext" }}
+{{- $buttonLink := index $pricing "buttonlink" }}
 <section id="pricing" class="section section-feature-grey is-medium">
     <div class="container">
         <div class="title-wrapper has-text-centered">
@@ -16,11 +19,16 @@
             </article>
             <article class="message is-info">
               <div class="message-body">
-                For your production usage beyond 10 nodes, contact us @
+                For your production usage beyond 5 nodes, contact us @
                 <span class="icon"><i class="fa fa-envelope"></i></span><a href="mailto:sales@clodpi.io">sales@clodpi.io</a>
                 or <span class="icon"><i class="fa fa-phone"></i></span>+91 98948 49789
               </div>
             </article>
         </div>
+        <p class="has-text-centered mt-20">
+          <a class="button cta rounded primary-btn raised" href="{{ $buttonLink }}">
+            {{ $buttonText }}
+          </a>
+        </p>
     </div>
 </section>
