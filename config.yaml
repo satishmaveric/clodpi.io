@@ -56,12 +56,12 @@ params:
     - title: Industrial Outdoor Gateway
       icon: outdoor-gw
       text: Outdoor (IP68) LoRaWAN 8 channel gateway with 4g backhaul and Power over Ethernet.
-      url: /
+      url: https://shop.clodpi.io/products/lorawan-outdoor-gateway
       buttonText: More Details
     - title: Indoor Gateway
       icon: indoor-gw
       text: Indoor, 8 channel gateway with ethernet backhaul, speicifcally for covering industries and comercial buildings.
-      url: /
+      url: https://shop.clodpi.io/products/lorawan-indoor-industrial
       buttonText: More Details
     - title: Hosted (SaaS) Network Server
       icon: console
