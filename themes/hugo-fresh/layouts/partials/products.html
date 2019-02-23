@@ -13,7 +13,7 @@
 
     <div class="content-wrapper">
       <div class="columns">
-        {{- range $tiles }}
+        {{- range first 3 $tiles }}
         <div class="column is-one-third">
           <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
             <div class="card-title">
@@ -27,6 +27,40 @@
             </div>
             <div class="card-action">
               <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
+            </div>
+          </div>
+        </div>
+        {{- end }}
+      </div>
+      <div class="columns">
+        {{- range first 3 (after 3 $tiles) }}
+        <div class="column is-one-third">
+          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h4>{{ .title }}</h4>
+            </div>
+            <div class="card-icon">
+                <img style="padding: 40px" src="{{ printf "/images/illustrations/icons/%s.png" .icon | relURL }}">
+            </div>
+            <div class="card-text">
+                <p>{{ .text }}</p>
+            </div>
+          </div>
+        </div>
+        {{- end }}
+      </div>
+      <div class="columns">
+        {{- range first 3 (after 6 $tiles) }}
+        <div class="column is-one-third">
+          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h4>{{ .title }}</h4>
+            </div>
+            <div class="card-icon">
+                <img style="padding: 40px" src="{{ printf "/images/illustrations/icons/%s.png" .icon | relURL }}">
+            </div>
+            <div class="card-text">
+                <p>{{ .text }}</p>
             </div>
           </div>
         </div>

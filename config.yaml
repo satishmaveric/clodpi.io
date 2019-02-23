@@ -68,6 +68,21 @@ params:
       text: Network server (LoRaWAN v1.0.1) to bridge the gateways to your application, doing device management and decode / relay the data from nodes in a secure manner.
       url: https://console.clodpi.io
       buttonText: Get started
+    - title: LoRaWAN Development Kit
+      icon: dev-kit
+      text: Includes nodes, one indoor LoRaWAN gateway, and subscription to the network server.
+    - title: LoRaWAN RS485 Adapter
+      icon: rs485
+      text: Enables LoRaWAN connectivity to existing rs485/modbus based energy, water, gas meters and other industrial equipments.
+    - title: LoRaWAN Parking Sensor
+      icon: parking
+      text: LoRaWAN parking sensors for commercial and public parking spaces.
+    - title: LoRaWAN Street Lights
+      icon: light
+      text: Control, monitor and measure energy consumption of street lights with LoRaWAN. Supports other features auto dimming, motion based triggers, etc.
+    - title: LoRaWAN multi-sensors node
+      icon: multisensor
+      text: Generic LoRaWAN multi-sensors node to quickly develop your applications and prototypes
   section2:
     title: You're here because you want the best
     subtitle: And we know it
