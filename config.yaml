@@ -22,12 +22,12 @@ params:
     # Hero image (from /images/___)
     image: illustrations/lora.png
     # Footer logos (from /images/logos/clients/___.svg)
-    clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+  hero1:
+    title: We got you covered!
+    subtitle: We are expanding our LoRaWAN network coverage across India. Express your interest to get your prefered location covered with our network. It is open and free for development.
+    buttontext: Submit Now
+    buttonlink: "https://goo.gl/forms/6IT822kZ4mk5HlhV2"
+    image: illustrations/coverage.png
   meta:
     keywords: ClodPi, LoRa, LoRaWAN, Gateway, Network Server, India, Indoor, Outdoor, IoT, Automation, Dashboard, Research, Development, Services, Hardware, Software, Platform
     description: ClodPi's products ranges from LoRaWAN Gateways (Indoor & Outdoor), Network Servers alongn with Dasboards and Nodes helps in Long Range Low Power IoT Communication. We also work on cutting edge technologies like NBIoT, Edge Computing, etc
@@ -40,13 +40,13 @@ params:
   - title: Solutions
     sublinks:
     - title: Wireless Energy Metering
-      url: /#solutions
+      url: /#products
     - title: Modbus Wireless Reader
-      url: /#solutions
+      url: /#products
+    - title: Smart Street Lights
+      url: /#products
     - title: Monitoring Dashboards
       url: /#screenshot
-  - title: Shop Now
-    url: https://shop.clodpi.io
   - title: LoRaWAN Console
     url: https://console.clodpi.io
     button: true
@@ -104,22 +104,6 @@ params:
   pricing:
     buttonText: Contact Us
     buttonLink: "mailto:meetus@clodpi.io"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
   footer:
     # Logo (from /images/logos/___)
     logo: logos/logo-white.png

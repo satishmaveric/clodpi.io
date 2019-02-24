@@ -1,4 +1,4 @@
-{{- $hero       := .Site.Params.hero }}
+{{- $hero       := .Site.Params.hero1 }}
 {{- $title      := index $hero "title" }}
 {{- $subtitle   := index $hero "subtitle" }}
 {{- $buttonText := index $hero "buttontext" }}
@@ -7,6 +7,11 @@
 <div class="hero-body">
   <div class="container">
     <div class="columns is-vcentered">
+      <div class="column is-5 is-offset-1">
+        <figure class="image">
+          <img src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
+        </figure>
+      </div>
       <div class="column is-5 is-offset-1 landing-caption">
         <h1 class="title is-1 is-bold is-spaced">
           {{ $title }}
@@ -21,11 +26,6 @@
             {{ $buttonText }}
           </a>
         </p>
-      </div>
-      <div class="column is-5 is-offset-1">
-        <figure class="image is-4by3">
-          <img src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
-        </figure>
       </div>
     </div>
   </div>
