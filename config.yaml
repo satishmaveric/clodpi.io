@@ -80,6 +80,12 @@ params:
     - title: LoRaWAN Street Lights
       icon: light
       text: Control, monitor and measure energy consumption of street lights with LoRaWAN. Supports other features auto dimming, motion based triggers, etc.
+    - title: LoRaWAN Button
+      icon: button
+      text: LoRaWAN button to perform any action. Control a light, start/stop an engine, etc. Its battery powered and maintenance free.
+    - title: LoRaWAN GPS Tracker
+      icon: gps
+      text: Track valuable assets location in realtime. USB or battery powered, with recharchable LiPo battery.
     - title: LoRaWAN multi-sensors node
       icon: multisensor
       text: Generic LoRaWAN multi-sensors node to quickly develop your applications and prototypes

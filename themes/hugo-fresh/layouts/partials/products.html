@@ -66,6 +66,23 @@
         </div>
         {{- end }}
       </div>
+      <div class="columns">
+        {{- range first 3 (after 9 $tiles) }}
+        <div class="column is-one-third">
+          <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h4>{{ .title }}</h4>
+            </div>
+            <div class="card-icon">
+                <img style="padding: 40px" src="{{ printf "/images/illustrations/icons/%s.png" .icon | relURL }}">
+            </div>
+            <div class="card-text">
+                <p>{{ .text }}</p>
+            </div>
+          </div>
+        </div>
+        {{- end }}
+      </div>
     </div>
   </div>
 </section>
