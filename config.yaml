@@ -14,7 +14,7 @@ params:
     # Main hero title
     title: IoT & ClodPi
     # Hero subtitle (optional)
-    subtitle: We build products in Low Power Long Range sensor data network communication space, using technologies like LoRaWAN and NB-IoT
+    subtitle: We build products in Low Power Long Range sensor data network communication space, using technologies like LoRaWAN® and NB-IoT
     # Button text
     buttontext: Get started
     # Where the main hero button links to
@@ -24,7 +24,7 @@ params:
     # Footer logos (from /images/logos/clients/___.svg)
   hero1:
     title: We got you covered!
-    subtitle: We are expanding our LoRaWAN network coverage across India. Express your interest to get your prefered location covered with our network. It is open and free for development.
+    subtitle: We are expanding our LoRa network coverage across India. Express your interest to get your prefered location covered with our network. It is open and free for development.
     buttontext: Submit Now
     buttonlink: "https://goo.gl/forms/6IT822kZ4mk5HlhV2"
     image: illustrations/coverage.png
@@ -51,58 +51,44 @@ params:
     url: https://console.clodpi.io
     button: true
   section1:
-    title: Our LoRaWAN Products
+    title: Our Products
     tiles:
     - title: Industrial Outdoor Gateway
       icon: outdoor-gw
-      text: Outdoor (IP68) LoRaWAN 8 channel gateway with 4g backhaul and Power over Ethernet.
-      url: https://shop.clodpi.io/products/lorawan-outdoor-gateway
+      text: Outdoor (IP68) 8 channel LoRa gateway with 4g backhaul and Power over Ethernet.
+      url: '#'
       buttonText: More Details
     - title: Indoor Gateway
       icon: indoor-gw
-      text: Indoor, 8 channel gateway with ethernet backhaul, speicifcally for covering industries and comercial buildings.
-      url: https://shop.clodpi.io/products/lorawan-indoor-industrial
+      text: Indoor, 8 channel LoRa gateway with ethernet backhaul, speicifcally for covering industries and comercial buildings.
+      url: '#'
       buttonText: More Details
     - title: Hosted (SaaS) Network Server
       icon: console
-      text: Network server (LoRaWAN v1.0.1) to bridge the gateways to your application, doing device management and decode / relay the data from nodes in a secure manner.
+      text: Network server (for LoRaWAN) to bridge the gateways to your application, doing device management and decode / relay the data from nodes in a secure manner.
       url: https://console.clodpi.io
       buttonText: Get started
-    - title: LoRaWAN Development Kit
+    - title: LoRa Development Kit
       icon: dev-kit
-      text: Includes nodes, one indoor LoRaWAN gateway, and subscription to the network server.
-    - title: LoRaWAN RS485 Adapter
+      text: Includes radio modules (nodes), one indoor clodpi gateway, and subscription to the network server.
+    - title: RS485 Adapter
       icon: rs485
       text: Enables LoRaWAN connectivity to existing rs485/modbus based energy, water, gas meters and other industrial equipments.
-    - title: LoRaWAN Parking Sensor
+    - title: Parking Sensor
       icon: parking
-      text: LoRaWAN parking sensors for commercial and public parking spaces.
-    - title: LoRaWAN Street Lights
+      text: LoRa parking sensors for commercial and public parking spaces.
+    - title: Street Lights
       icon: light
-      text: Control, monitor and measure energy consumption of street lights with LoRaWAN. Supports other features auto dimming, motion based triggers, etc.
-    - title: LoRaWAN Button
+      text: Control, monitor and measure energy consumption of street lights with LoRaWAN network. Supports other features auto dimming, motion based triggers, etc.
+    - title: LoRa Button
       icon: button
-      text: LoRaWAN button to perform any action. Control a light, start/stop an engine, etc. Its battery powered and maintenance free.
-    - title: LoRaWAN GPS Tracker
+      text: LoRa button to perform any action. Control a light, start/stop an engine, etc. Its battery powered and maintenance free.
+    - title: LoRa GPS Tracker
       icon: gps
       text: Track valuable assets location in realtime. USB or battery powered, with recharchable LiPo battery.
-    - title: LoRaWAN multi-sensors node
+    - title: LoRa multi-sensors node
       icon: multisensor
-      text: Generic LoRaWAN multi-sensors node to quickly develop your applications and prototypes
-  section2:
-    title: You're here because you want the best
-    subtitle: And we know it
-    features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
+      text: LoRa module with multi-sensors node to quickly develop your applications and prototypes
   screenshot:
     title: Dashboard
     subtitle: for monitoring
