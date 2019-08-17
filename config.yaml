@@ -47,7 +47,7 @@ params:
       url: /#products
     - title: Monitoring Dashboards
       url: /#screenshot
-  - title: LoRaWAN Console
+  - title: Clodpi Console
     url: https://console.clodpi.io
     button: true
   section1:
@@ -55,34 +55,34 @@ params:
     tiles:
     - title: Industrial Outdoor Gateway
       icon: outdoor-gw
-      text: Outdoor (IP68) 8 channel LoRa gateway with 4g backhaul and Power over Ethernet.
+      text: Outdoor (IP68) 8 channel gateway for LoRaWAN networks with 4g backhaul and Power over Ethernet.
       url: '#'
       buttonText: More Details
     - title: Indoor Gateway
       icon: indoor-gw
-      text: Indoor, 8 channel LoRa gateway with ethernet backhaul, speicifcally for covering industries and comercial buildings.
+      text: Indoor, 8 channel gateway for LoRaWAN networks with ethernet backhaul, speicifcally for covering industries and comercial buildings.
       url: '#'
       buttonText: More Details
     - title: Hosted (SaaS) Network Server
       icon: console
-      text: Network server (for LoRaWAN) to bridge the gateways to your application, doing device management and decode / relay the data from nodes in a secure manner.
+      text: Network server for LoRaWAN to bridge the gateways to your application, doing device management and decode / relay the data from nodes in a secure manner.
       url: https://console.clodpi.io
       buttonText: Get started
-    - title: LoRa Development Kit
+    - title: Development Kit
       icon: dev-kit
-      text: Includes radio modules (nodes), one indoor clodpi gateway, and subscription to the network server.
+      text: Get started with your development activities using LoRa technology. Includes radio modules (nodes), one indoor clodpi gateway, and subscription to the network server.
     - title: RS485 Adapter
       icon: rs485
       text: Enables LoRaWAN connectivity to existing rs485/modbus based energy, water, gas meters and other industrial equipments.
     - title: Parking Sensor
       icon: parking
-      text: LoRa parking sensors for commercial and public parking spaces.
+      text: Parking sensors for commercial and public parking spaces, using LoRa technology
     - title: Street Lights
       icon: light
       text: Control, monitor and measure energy consumption of street lights with LoRaWAN network. Supports other features auto dimming, motion based triggers, etc.
-    - title: LoRa Button
+    - title: General Purpose Button
       icon: button
-      text: LoRa button to perform any action. Control a light, start/stop an engine, etc. Its battery powered and maintenance free.
+      text: button to perform any action, based on LoRa technology. Control a light, start/stop an engine, etc. Its battery powered and maintenance free.
     - title: LoRa GPS Tracker
       icon: gps
       text: Track valuable assets location in realtime. USB or battery powered, with recharchable LiPo battery.
